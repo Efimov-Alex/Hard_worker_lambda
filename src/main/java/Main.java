@@ -1,3 +1,6 @@
+/*
+В классе Main происходит определение переменных типа функциональных интерфейсов и вывод работы класса Worker
+ */
 public class Main {
     public static void main(String[] args) {
         OnTaskDoneListener listener = System.out::println;

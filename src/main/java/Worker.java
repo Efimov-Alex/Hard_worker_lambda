@@ -1,3 +1,6 @@
+/*
+В классе Worker происходит выполнение некоторых задач и возвращение результата в родительский класс Main.
+ */
 public class Worker {
     private OnTaskDoneListener callback;
 
